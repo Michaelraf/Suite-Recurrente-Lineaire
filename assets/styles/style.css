@@ -1,0 +1,30 @@
+@font-face {
+    font-family: MathJax;
+    src: url("../font/MathJax_AMS-Regular.otf");
+}
+@font-face {
+    font-family: Tex;
+    src: url("../font/TeX/TeX_Bold/TeX_Bold.ttf");
+}
+body{
+    min-height: 600px;
+    min-width: 587px;
+}
+header{
+    height: 122px;
+}
+.coeff{
+    font-family: Tex;
+    width: 3em;
+    border: none;
+    border-bottom: solid 1px #c4c4c4;
+}
+.coeff:focus{
+    outline: none;
+}
+#result{
+    height: 1.2em;
+}
+.input-container{
+    width: 16em;
+}

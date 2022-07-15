@@ -1,0 +1,6 @@
+<?php
+
+$db = 'dbname';
+$host = 'hotsname';
+$user = 'usename';
+$password = 'password';
